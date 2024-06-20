@@ -3,8 +3,9 @@
 
 * {
     font-family: "inter", sans-serif;
-    margin: 0;
-    padding: 5px;
+   
+    margin: 0px;
+    padding: 10px 1àpx 10px 10px;
     block-size: border-box;
 
 }
@@ -40,16 +41,7 @@ nav {
 h2 {
     width: 50%;
 }
-ul{ 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
 
-    list-style-type: none;
-     
-   
-}
 header {
 display: grid;
 grid-template-columns: 50% 50%;
@@ -100,8 +92,9 @@ button {
 
 
 .infos {
+    height: 200px;
     display: grid;
-    grid-template-columns: 30% ;
+    grid-template-columns: 30%  70%;
     background-color: rgb(14, 13, 13);
     color : whitesmoke;
     border-radius: 10px;
@@ -109,22 +102,41 @@ button {
  
    
 }
-.infos-left{
-    display: flex;
-    
-    justify-content: space-around;
-  
-    
+.infos-left {
+   display:grid;
+
+}
+.btn-container {
+    display: grid;
 }
 
 .infos-right h3 {
+   
 
     margin-left: 25px;
 }
+.img-container {
+    display: grid;
+    display: inline;
+}
+.img-container img {
+    height: 70px;
+    display: flex;
+    display:inline;
+    
+    margin: 5px 25px 5px 25px;
+  
+} 
 
 .investors {
+    display: grid;
+    width: 900px;
+  
+   margin: 0px;
+   padding: 0px;
     
-    padding: 35px 0px;
+   
+    margin: 30px ;
    
     
     
