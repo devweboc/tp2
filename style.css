@@ -50,6 +50,7 @@ nav ul li {
 header {
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
 }
 
 .header-left h1 {
@@ -62,7 +63,9 @@ header {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-
+.header-right img {
+    width:10rem;
+}
 button {
     background-color:rgb(27, 27, 232);
     
@@ -76,12 +79,7 @@ button {
     width: 135px;
 }
 
-.img-container{
-  
-     height: 7vh;
-     width: 100%;
-   
-}
+
 
 .infos {
     
@@ -91,6 +89,7 @@ button {
     background-color: rgb(14, 13, 13);
     color : whitesmoke;
     border-radius: 10px; 
+    width: 100%;
 }
 
 .infos-left {
@@ -113,7 +112,7 @@ button {
     display: flex;
     display:inline;
     
-    margin: 5px 25px 5px 25px;
+    
   
 } 
 .img-container {
@@ -122,3 +121,46 @@ button {
     height: 125px;
     align-items: center;
 }
+/* *************$ MEDIA QUERIES ************ */
+
+@media screen and (max-width:1500px) {
+    nav {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+    
+    
+    #modem {
+        width:90%;
+
+    }
+    
+}
+
+@media screen  and (max-width: 750px) {
+    body{
+        background-color: red;
+    }
+     h2 {
+        font-size: 1.5rem;
+    }
+    nav ul li {
+        font-size: 1.3rem;
+    }
+
+    .header-left h1 {
+        font-size: 3rem;
+    }
+    #modem {
+        width:90%;
+    }
+    .infos {
+        display: block;
+        text-align: center
+        margin:0 auto;
+        
+        grid-template-columns:100% 100%;
+
+    }
+   
+    
