@@ -19,7 +19,7 @@ body {
     }
 
 #modem {
-   width: 75vh;
+   width: 70vh;
    padding: 20px ;
 }
 h1 {
@@ -27,6 +27,7 @@ h1 {
     font-size: 2.5rem;
 }
 nav { 
+    margin-top: 15px;
     display:grid;
     grid-template-columns: 50% 50%;
     
@@ -83,8 +84,9 @@ button {
 }
 
 .infos {
-    height: 200px;
+    
     display: grid;
+    margin-bottom: 20px;
     grid-template-columns: 30%  70%;
     background-color: rgb(14, 13, 13);
     color : whitesmoke;
@@ -114,11 +116,9 @@ button {
     margin: 5px 25px 5px 25px;
   
 } 
-
-.investors {
-    display: grid;
-    width: 900px;
-    margin: 0px;
-    padding: 0px;
-    margin: 30px ;
+.img-container {
+    display: flex;
+    justify-content:space-around;
+    height: 125px;
+    align-items: center;
 }
